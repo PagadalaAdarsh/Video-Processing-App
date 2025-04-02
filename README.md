@@ -76,10 +76,4 @@ If port `5173` is busy, another port will be assigned.
 - `GET /detections/{video_id}` - Fetches detections from the database.
 
 ### Cleanup
-- `DELETE /cleanup/` - Deletes all uploaded videos.
-
-## Submission Instructions
-- Ensure the GitHub repository is updated with the latest code.
-- Include this `README.md` in the repository.
-- Deadline: **3-5 days from assignment.**
-
+- `DELETE /cleanup/` - Deletes all uploaded videos
