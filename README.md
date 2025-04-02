@@ -77,3 +77,14 @@ If port `5173` is busy, another port will be assigned.
 
 ### Cleanup
 - `DELETE /cleanup/` - Deletes all uploaded videos
+
+### Running with Docker
+#### Build and Start Containers
+```sh
+docker-compose up --build
+```
+This will start the backend, frontend, and MySQL database in Docker containers.
+
+#### Stopping the Containers
+```sh
+docker-compose down
